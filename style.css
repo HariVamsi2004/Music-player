@@ -8,12 +8,17 @@ body
 .box
 {   
   width:400px;
-  overflow:hidden;
-  margin: auto;
+  height:300px;
   margin: 100px 500px;
   padding:80px ;
   background:#ffffff2e;
   border-radius:3px;
+  float:none;
+}
+@media screen and (orientation:portrait)
+{
+  .box{float:left;width:400px;height:300px;margin:700px 200px;padding:80px ;background:#ffffff2e;border-radius:3px;}
+
 }
 
 p{
