@@ -1,0 +1,86 @@
+body { 
+  background-image:url(https://www.wallpaperup.com/uploads/wallpapers/2015/05/11/683843/6547274a7ee500e76480931c399cba4b-700.jpg);
+  background-size:100% 100%;
+  background-repeat:repeat-x;
+}
+
+.new { 
+  background:rgba(11, 15, 13, 0.8);
+  width:101%;
+  margin:-8px;
+  padding-bottom:1%;
+}
+@media screen and (orientation:portrait)
+{
+  .new { background:rgba(11, 15, 13, 0.582);width:101%;margin:-8px;padding-bottom:100%;}
+  
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin : 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgba(11, 15, 13, 0.582);
+}
+
+li {
+  float: right;
+  border-right:1px solid rgba(11, 15, 13, 0.582);
+}
+
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color:#ffffff2e;
+
+}
+  
+.dropbtn {
+  background-color:Cornsilk;
+  color: black;
+  padding: 18px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropbtn
+{
+background-color:Wheat;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: center;
+  background-color: #f9f9f9;
+  max-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover 
+.dropdown-content 
+{
+display: block;
+}
+
+#title
+{
+  background-position:center;
+  color:white;
+  margin-top:0;  
+  text-align:center;
+} 
